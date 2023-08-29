@@ -70,3 +70,93 @@ html {
   color: white;
   font-size: 16px;
 }
+
+.mk-button-blue2-HOVER1 {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(51, 129, 255);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.mk-button-blue2-HOVER1:hover {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(10, 104, 255);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.mk-button-blue2-tHOVER1 {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(51, 129, 255);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  transition: background-color;
+  transition-duration: 0.3s;
+}
+
+.mk-button-blue2-tHOVER1:hover {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(10, 104, 255);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.mk-button-blue2-tHOVER2 {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(51, 129, 255);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  transition: background-color transform;
+  transition-duration: 0.3s;
+}
+
+.mk-button-blue2-tHOVER2:hover {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(10, 104, 255);
+  transform: scale(1.1);
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.mk-input-gray1 {
+  border: none;
+  background-color: #383838;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: border-radius;
+  transition-duration: 0.3s;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.mk-input-gray1::placeholder {
+  color:#bababa;
+}
+.mk-input-gray1:focus {
+  outline: none;
+  border-radius: 10px;
+}
